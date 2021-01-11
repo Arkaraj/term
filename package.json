@@ -1,12 +1,12 @@
 {
-  "name": "term",
+  "name": "@arkaraj/term",
   "version": "1.0.0",
-  "description": "",
+  "description": "A simple npm package that can convert string to Uppercase/lowercase, join strings, and do basic conversions",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Arkaraj",
   "license": "ISC"
 }
