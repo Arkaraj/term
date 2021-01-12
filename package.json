@@ -1,12 +1,16 @@
 {
   "name": "@arkaraj/term",
   "version": "1.0.0",
-  "description": "A simple npm package that can convert string to Uppercase/lowercase, join strings, and do basic conversions",
+  "description": "A simple npm package that can convert string to Uppercase/lowercase, join strings, and do basic conversions like binary-decimal, height, weight",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": [
+    "simple",
+    "joins",
+    "conversions"
+  ],
   "author": "Arkaraj",
   "license": "ISC"
 }
