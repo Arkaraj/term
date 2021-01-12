@@ -91,7 +91,18 @@ const newHeight = term.weight(num: Number, metric: String, convMetric: String);
 
 ### Temparature Conversions
 
+This is for conversion of the temparature units like Celsius, Fahrenheit and Kelvin.
+This function takes in 3 parameters, the value in numbers the unit of the value the user has inputed and finally the unit the user wants to find the value in.
 
+The funciton returns in Number
+
+Celsius --> c
+Fahrenheit --> f
+Kelvin --> k
+
+```
+const newTemp = term.temperature(num: Number, metric: String, convMetric: String);
+```
 
 ### Getting Basic DateTime
 
