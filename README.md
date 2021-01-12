@@ -1,7 +1,8 @@
 # @arkaraj/term
 A simple npm package that can convert string to Uppercase/lowercase, join strings, and can do basic conversions in Height, Weight and Temperature it can also showcase time. It has 0 dependencies so its really light weight.
 
-https://img.shields.io/npm/v/@arkaraj/term?logo=npm
+![npm](https://img.shields.io/npm/v/@arkaraj/term)
+![NPM](https://img.shields.io/npm/l/@arkaraj/term)
 
 ## Documentation
 

@@ -9,8 +9,11 @@
   "keywords": [
     "simple",
     "joins",
-    "conversions"
+    "conversions",
+    "npm",
+    "arkaraj"
   ],
+  "repository": "Arkaraj/term",
   "author": "Arkaraj",
   "license": "MIT"
 }
