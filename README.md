@@ -7,15 +7,17 @@ https://img.shields.io/npm/v/@arkaraj/term?logo=npm
 
 ### Contribution
 
-Pull requests are always welcome! Please base pull requests against the main. Star it if you like it.
+Pull requests are always welcome! Please base pull requests against the main branch. Star it if you like it.
 
 ### Installation
 
-```
+```sh
 $ npm i @arkaraj/term
 ```
 
-```
+### Importing
+
+```javascript
 // Using Node.js `require()`
 const term = require('@arkaraj/term');
 
@@ -27,7 +29,9 @@ import term from '@arkaraj/term';
 Join words with any sign/symbol(+,-,$,%,etc..).
 Takes in a String and a symbol
 
-```term.join(String, Symbol)````
+``` javascript
+term.join(String, Symbol)
+```
 
 Default Symbol is blank
 
@@ -36,7 +40,7 @@ Default Symbol is blank
 This converts the given string to uppercase and lowercase strings 
 This function takes in a string variable
 
-```
+```javascript
 // UpperCase
 const upperString = term.upperCase(String);
 
@@ -50,7 +54,7 @@ To convert from binary to decimal and vice versa. This accepts decimal places al
 
 The function returns in Number
 
-```
+```javascript
 // Returns result the binary Number
 const binary = term.toBinary(num: Number);
 
@@ -70,7 +74,7 @@ meters --> m
 feet --> ft
 inches --> in
 
-```
+```javascript
 const newHeight = term.height(num: Number, metric: String, convMetric: String);
 ```
 
@@ -85,7 +89,7 @@ Kilograms --> kg
 Pounds --> lb
 Ounces --> oz
 
-```
+```javascript
 const newHeight = term.weight(num: Number, metric: String, convMetric: String);
 ```
 
@@ -100,7 +104,7 @@ Celsius --> c
 Fahrenheit --> f
 Kelvin --> k
 
-```
+```javascript
 const newTemp = term.temperature(num: Number, metric: String, convMetric: String);
 ```
 
@@ -108,7 +112,7 @@ const newTemp = term.temperature(num: Number, metric: String, convMetric: String
 
 This is to get the current Date time
 
-```
+```javascript
 const time = term.getDate();
 ```
 
